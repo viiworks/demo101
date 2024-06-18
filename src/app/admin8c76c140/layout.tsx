@@ -11,7 +11,6 @@ const RootLayout = ({
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
-  console.log("test");
   return <DashboardRootLayout>{children}</DashboardRootLayout>;
 };
 
