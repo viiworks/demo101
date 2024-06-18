@@ -9,6 +9,7 @@ const DashboardLayout = async ({
 }>) => {
   const permissions = await getSessionUserPermissions();
   const isPermitted = hasPermissionTo(permissions, []);
+  const dashboardRoute = process.env.DASHBOARD_ROUTE;
 
   const navItems = [
     {
@@ -17,12 +18,12 @@ const DashboardLayout = async ({
         {
           icon: "diagram-3",
           title: "Pages",
-          link: "/admin7c6ba567/pages",
+          link: `${dashboardRoute}/pages`,
         },
         {
           icon: "flag",
           title: "Banners",
-          link: "/admin7c6ba567/banners",
+          link: `${dashboardRoute}/banners`,
         },
         {
           icon: "camera",
@@ -30,11 +31,11 @@ const DashboardLayout = async ({
           itemChildren: [
             {
               title: "Albums",
-              link: "/admin7c6ba567/albums",
+              link: `${dashboardRoute}/albums`,
             },
             {
               title: "Gallery Items",
-              link: "/admin7c6ba567/gallery-items",
+              link: `${dashboardRoute}/gallery-items`,
             },
           ],
         },
@@ -42,12 +43,12 @@ const DashboardLayout = async ({
         {
           icon: "telephone-inbound",
           title: "Contacts",
-          link: "/admin7c6ba567/contacts",
+          link: `${dashboardRoute}/contacts`,
         },
         {
           icon: "envelope",
           title: "Newsletter",
-          link: "/admin7c6ba567/newsletter",
+          link: `${dashboardRoute}/newsletter`,
         },
       ],
     },
@@ -60,15 +61,15 @@ const DashboardLayout = async ({
           itemChildren: [
             {
               title: "Users",
-              link: "/admin7c6ba567/users",
+              link: `${dashboardRoute}/users`,
             },
             {
               title: "Roles",
-              link: "/admin7c6ba567/roles",
+              link: `${dashboardRoute}/roles`,
             },
             {
               title: "Permissions",
-              link: "/admin7c6ba567/permissions",
+              link: `${dashboardRoute}/permissions`,
               isVisible: isPermitted,
             },
           ],
