@@ -22,3 +22,5 @@ yarn-error.log
 /.vscode
 /Modules/*/vendor/*
 /Modules/*
+.scribe
+/public/docs/api
