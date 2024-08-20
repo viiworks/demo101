@@ -17,6 +17,13 @@
         "laravel/tinker": "^2.8",
         "league/flysystem-aws-s3-v3": "^3.0",
         "nwidart/laravel-modules": "^10.0",
+        "sevenworksinc/article-module": "dev-article-module",
+        "sevenworksinc/banner-module": "dev-banner-module",
+        "sevenworksinc/contact-module": "dev-contact-module",
+        "sevenworksinc/gallery-module": "dev-gallery-module",
+        "sevenworksinc/iam-module": "dev-iam-module",
+        "sevenworksinc/newsletter-module": "dev-newsletter-module",
+        "sevenworksinc/page-module": "dev-page-module",
         "spatie/laravel-permission": "5.8"
     },
     "require-dev": {
@@ -74,5 +81,49 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/iam-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "iam-module"
+        },
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/article-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "article-module"
+        },
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/banner-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "banner-module"
+        },
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/contact-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "contact-module"
+        },
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/gallery-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "gallery-module"
+        },
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/newsletter-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "newsletter-module"
+        },
+        {
+            "type": "vcs",
+            "name": "sevenworksinc/page-module",
+            "url": "https://github.com/SevenworksInc/Cerana.git",
+            "branch": "page-module"
+        }
+    ]
 }

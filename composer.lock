@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bd00e74dd40285d53cd9d6b46d64ef6",
+    "content-hash": "636e7df3b5efd641d0dde01f36275e05",
     "packages": [
         {
             "name": "ajcastro/eager-load-pivot-relations",
@@ -206,6 +206,78 @@
                 "source": "https://github.com/aws/aws-sdk-php/tree/3.311.1"
             },
             "time": "2024-06-06T18:05:50+00:00"
+        },
+        {
+            "name": "biscolab/laravel-recaptcha",
+            "version": "v6.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/biscolab/laravel-recaptcha.git",
+                "reference": "440fc617cba9f39aab7fda5d7697b76a55286e31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/biscolab/laravel-recaptcha/zipball/440fc617cba9f39aab7fda5d7697b76a55286e31",
+                "reference": "440fc617cba9f39aab7fda5d7697b76a55286e31",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/routing": "^7.0|^8.0|^9.0|^10.0|^11.0",
+                "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "5.*|6.*|^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.1|^10.5"
+            },
+            "suggest": {
+                "biscolab/laravel-authlog": "It allows to handle logged-in users and force log-out if needed"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Biscolab\\ReCaptcha\\ReCaptchaServiceProvider"
+                    ],
+                    "aliases": {
+                        "ReCaptcha": "Biscolab\\ReCaptcha\\Facades\\ReCaptcha"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Biscolab\\ReCaptcha\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roberto Belotti",
+                    "email": "roby.belotti@gmail.com",
+                    "homepage": "https://biscolab.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple and painless Google reCAPTCHA package for Laravel framework",
+            "homepage": "https://biscolab.com/laravel-recaptcha",
+            "keywords": [
+                "captcha",
+                "laravel",
+                "recaptcha",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/biscolab/laravel-recaptcha/issues",
+                "source": "https://github.com/biscolab/laravel-recaptcha/tree/v6.1.0"
+            },
+            "abandoned": true,
+            "time": "2024-03-27T11:06:21+00:00"
         },
         {
             "name": "brick/math",
@@ -3614,6 +3686,334 @@
                 }
             ],
             "time": "2023-11-08T05:53:05+00:00"
+        },
+        {
+            "name": "sevenworksinc/article-module",
+            "version": "dev-article-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "d74bcd201ef66695910c6af1295281edc488eef9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/d74bcd201ef66695910c6af1295281edc488eef9",
+                "reference": "d74bcd201ef66695910c6af1295281edc488eef9",
+                "shasum": ""
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Article\\": "",
+                    "Modules\\Article\\App\\": "app/",
+                    "Modules\\Article\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Article\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Article\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/article-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:27:08+00:00"
+        },
+        {
+            "name": "sevenworksinc/banner-module",
+            "version": "dev-banner-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "53c74cbee28b78c9f5ee325147dce91b9de7e215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/53c74cbee28b78c9f5ee325147dce91b9de7e215",
+                "reference": "53c74cbee28b78c9f5ee325147dce91b9de7e215",
+                "shasum": ""
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Banner\\": "",
+                    "Modules\\Banner\\App\\": "app/",
+                    "Modules\\Banner\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Banner\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Banner\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/banner-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:27:33+00:00"
+        },
+        {
+            "name": "sevenworksinc/contact-module",
+            "version": "dev-contact-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "f85aa595bdb8d85c83a846f5a28b7412a7834cbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/f85aa595bdb8d85c83a846f5a28b7412a7834cbd",
+                "reference": "f85aa595bdb8d85c83a846f5a28b7412a7834cbd",
+                "shasum": ""
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Contact\\": "",
+                    "Modules\\Contact\\App\\": "app/",
+                    "Modules\\Contact\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Contact\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Contact\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/contact-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:29:41+00:00"
+        },
+        {
+            "name": "sevenworksinc/gallery-module",
+            "version": "dev-gallery-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "a229baa222a3b426aa4a28c42d956acad2e30da1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/a229baa222a3b426aa4a28c42d956acad2e30da1",
+                "reference": "a229baa222a3b426aa4a28c42d956acad2e30da1",
+                "shasum": ""
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Gallery\\": "",
+                    "Modules\\Gallery\\App\\": "app/",
+                    "Modules\\Gallery\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Gallery\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Gallery\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/gallery-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:31:37+00:00"
+        },
+        {
+            "name": "sevenworksinc/iam-module",
+            "version": "dev-iam-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "d0bfee02b16b655bcfb36a5adaf8215a8f8ae90a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/d0bfee02b16b655bcfb36a5adaf8215a8f8ae90a",
+                "reference": "d0bfee02b16b655bcfb36a5adaf8215a8f8ae90a",
+                "shasum": ""
+            },
+            "require": {
+                "spatie/laravel-permission": "5.8"
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\IAM\\": "",
+                    "Modules\\IAM\\App\\": "app/",
+                    "Modules\\IAM\\Database\\Factories\\": "database/factories/",
+                    "Modules\\IAM\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\IAM\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/iam-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:32:22+00:00"
+        },
+        {
+            "name": "sevenworksinc/newsletter-module",
+            "version": "dev-newsletter-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "1fa9faf2763044eb858ee07fc66fd850b55e16c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/1fa9faf2763044eb858ee07fc66fd850b55e16c8",
+                "reference": "1fa9faf2763044eb858ee07fc66fd850b55e16c8",
+                "shasum": ""
+            },
+            "require": {
+                "biscolab/laravel-recaptcha": "^6.0"
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Newsletter\\": "",
+                    "Modules\\Newsletter\\App\\": "app/",
+                    "Modules\\Newsletter\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Newsletter\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Newsletter\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/newsletter-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:33:00+00:00"
+        },
+        {
+            "name": "sevenworksinc/page-module",
+            "version": "dev-page-module",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:SevenworksInc/Cerana.git",
+                "reference": "a5621be51361cd04626e143d075dae91e56384a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenworksInc/Cerana/zipball/a5621be51361cd04626e143d075dae91e56384a2",
+                "reference": "a5621be51361cd04626e143d075dae91e56384a2",
+                "shasum": ""
+            },
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Page\\": "",
+                    "Modules\\Page\\App\\": "app/",
+                    "Modules\\Page\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Page\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Modules\\Page\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Janver Torrecampo",
+                    "email": "janver.torrecampo@viiworks.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SevenworksInc/Cerana/tree/page-module",
+                "issues": "https://github.com/SevenworksInc/Cerana/issues"
+            },
+            "time": "2024-08-19T08:34:00+00:00"
         },
         {
             "name": "spatie/laravel-permission",
@@ -9166,7 +9566,15 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sevenworksinc/article-module": 20,
+        "sevenworksinc/banner-module": 20,
+        "sevenworksinc/contact-module": 20,
+        "sevenworksinc/gallery-module": 20,
+        "sevenworksinc/iam-module": 20,
+        "sevenworksinc/newsletter-module": 20,
+        "sevenworksinc/page-module": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
