@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 
 import "@/styles/main.scss";
+import Header from "@/layouts/website/header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
-
+ 
 export const metadata: Metadata = {
   title: "Website",
   description: "Powered by Sevenworks Inc.",
@@ -18,7 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
+        <Header />
         {children}
         <ToastContainer
           position="top-right"

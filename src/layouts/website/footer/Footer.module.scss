@@ -1,0 +1,21 @@
+.footer img { margin-bottom: 25px; } 
+.footer li, .footer a, .footer span, .footer p  { font-size: 17px; }
+.top-footer { background-color:#ffffff; padding: 50px 0 20px 0; color: #000000;}
+.bottom-footer { padding: 15px 0; }
+.top-footer h5 { margin-bottom: 10px;}
+.top-footer ul { list-style: none; padding-left: 0;}
+.top-footer li { margin-bottom: 5px; }
+.bottom-footer a, .top-footer a { text-decoration: none; color: #000000;}
+.bottom-footer a { font-size: 15px; }
+.bottom-footer span { text-decoration: none; color: #000000; font-size: 18px;}
+.designed-viiworks { text-align: right; margin-bottom: 0px; }
+ .quick-links { display: inline-flex; margin-bottom: 25px; }
+ .quick-links li { padding: 0 18px 0 0;}
+ .quick-links li a { color: #000000;}
+
+ .newsletter-form {
+    display: flex;
+    align-items: flex-start;
+}
+.newsletter-form  div { width: 70%; }
+.newsletter-form  button { width: 30%; background: #000000;}

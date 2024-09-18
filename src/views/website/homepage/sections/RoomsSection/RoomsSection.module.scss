@@ -1,0 +1,34 @@
+.room-section { 
+  background-color: #ECECEC;
+  padding: 100px 0px 70px; 
+}
+.room-section img { width: 100%; height: auto; margin-bottom: 10px; }
+.btn-more { padding: 10px 20px; border-radius: 3px !important; float: right !important; }
+.btn-wrap {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card { background-color: #ffffff; min-height: 300px; margin-bottom: 30px; }
+.card div { padding: 10px 15px; color: #000000;}
+
+.room-section a { text-decoration: none; }
+.room-section h2 { font-size: 35px; }
+.card h5 { font-size: 25px; margin-bottom: 10px; }
+.card p { font-size: 15px; margin-bottom: 15px; }
+
+.room-section h1, .room-section h2, .room-section h3, .room-section h4, .room-section h5, .room-section h6 {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+}
+
+.room-section p, .room-section a, .room-section button {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+

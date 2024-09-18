@@ -1,0 +1,47 @@
+.blogs { 
+  background-color: #333333;
+  padding: 100px 0px 70px; 
+}
+.blogs img { width: 100%; margin-bottom: 10px; }
+.btn-more { padding: 10px 20px; border-radius: 3px !important; float: right !important; }
+.btn-wrap {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.blogs h2, .blogs p { 
+  color: #ffffff; 
+} 
+
+.blogs h2 {
+font-family: "Marcellus", serif;
+font-size: 43px;
+font-weight: 400;
+font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+}
+
+.blogs h3 { 
+  color: #ffffff; 
+  line-height: 1.4; 
+  font-size: 18px;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+  @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+}
+
+
+
+.blogs a { text-decoration: none; color: #ffffff; }
+
+
+.blogs p, .blogs a, .blogs button {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: normal;
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}

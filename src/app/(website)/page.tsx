@@ -1,5 +1,6 @@
-const Homepage = () => {
-  return <></>;
-};
+import Homepage from "@/views/website/homepage/Homepage";
 
-export default Homepage;
+export default function Home() {
+  return <Homepage />;
+}
+
